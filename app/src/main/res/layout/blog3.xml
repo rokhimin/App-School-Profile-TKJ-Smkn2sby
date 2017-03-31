@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@drawable/topbarbg"
+        android:orientation="horizontal" >
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnBack" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="6"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Content"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="3dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnHome" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home" />
+        </TableRow>
+    </LinearLayout>
+
+    <!-- Main Blog 1 zzz Rokhimin whd zzz -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="4dip"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+
+            <RelativeLayout
+                android:id="@+id/linearLayout92"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dip"
+                android:background="@drawable/rowbg"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout93"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/imageView94"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/blog3" />
+
+
+                    <TextView
+                        android:id="@+id/textView95"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dip"
+                        android:text="Apa itu DNS ? (Konsep &amp; Cara kerja DNS)"
+                        android:textColor="#ff8a00"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearLayout93"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView15"
+                        android:src="@drawable/line"
+                        android:layout_below="@+id/linearLayout93"
+                        android:layout_centerHorizontal="true"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Dynamic Host Configuration Protocol (DHCP) merupakan service yang memungkinkan perangkat dapat mendistribusikan/assign IP Address secara otomatis pada host dalam sebuah jaringan. Cara kerjanya, DHCP Server akan memberikan response terhadap request yang dikirimkan oleh DHCP Client. "
+                        android:id="@+id/textView48"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Selain IP Address, DHCP juga mampu mendistribusikan informasi netmask, Default gateway, Konfigurasi DNS dan NTP Server serta masih banyak lagi custom option (tergantung apakah DHCP client bisa support). "
+                        android:id="@+id/textView92"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        android:layout_marginTop="5dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Mikrotik dapat digunakan sebagai DHCP Server maupun DHCP Client atau keduanya secara bersamaan. Sebagai contoh, misalnya kita berlangganan internet dari ISP A. ISP A tidak memberikan informasi IP statik yang harus dipasang pada perangkat kita, melainkan akan memberikan IP secara otomatis melalui proses DHCP."
+                        android:id="@+id/textView93"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        android:layout_marginTop="5dip"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView20"
+                        android:src="@drawable/blog3_1"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Mikrotik sebagai DHCP Client  "
+                        android:id="@+id/textView94"
+                        android:textColor="#2A55FF"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        android:layout_marginTop="5dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Dalam kasus ini, untuk dapat memperoleh alokasi IP Address dari ISP, yang nantinya dapat digunakan untuk terkoneksi ke internet, kita bisa menggunakan fitur DHCP Client. Langkah-langkah pembuatan DHCP Client dapat dilakukan  pada menu IP -> DHCP Client -> Add."
+                        android:id="@+id/textView96"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="DHCP Leases "
+                        android:id="@+id/textView98"
+                        android:textColor="#2A55FF"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        android:layout_marginTop="5dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Daftar perangkat yang sudah diberikan IP secara otomatis akan ada pada /ip dhcp-server leases.  "
+                        android:id="@+id/textView99"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="ARP Table"
+                        android:id="@+id/textView100"
+                        android:textColor="#2A55FF"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        android:layout_marginTop="5dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="fungsi ARP pada jaringan komputer,  dalam bahasa jaringan komputer kita pasti menemukan dan akan membahas mengenai ARP. Sebelum kita menginjak ke fungsi ARP, alangkah baiknya kita pelajari dulu pengertian tentang ARP itu sendiri."
+                        android:id="@+id/textView101"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Pengeritan ARP (Address Resolution Protocol) "
+                        android:id="@+id/textView102"
+                        android:textColor="#2A55FF"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        android:layout_marginTop="5dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="ARP (Address Resolution Protocol) adalah sebuah protokol dalam TCP/IP Protocol Suite yang bertanggungjawab dalam melakukan resolusi alamat IP ke dalam alamat Media Access Control (MAC Address). "
+                        android:id="@+id/textView104"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignTop="@+id/editText2"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Written : Andi Alumni ITS"
+                            android:id="@+id/textView52"
+                            android:layout_above="@+id/imageView18"
+                            android:layout_alignLeft="@+id/imageView18"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Update : 10/02/2017"
+                            android:id="@+id/textView49"
+                            android:layout_above="@+id/imageView18"
+                            android:layout_alignLeft="@+id/imageView18"
+                            android:layout_marginBottom="2dip"
+                            />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView19"
+                            android:src="@drawable/line"
+                            android:layout_above="@+id/textView48"
+                            android:layout_alignLeft="@+id/imageView15"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Commentar :"
+                            android:id="@+id/textView51"
+                            android:layout_above="@+id/editText2"
+                            android:layout_alignLeft="@+id/imageView18"
+                            android:textColor="#000"
+                            android:layout_marginTop="14dip"
+                            />
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/editText2"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignLeft="@+id/linearLayout93"
+                            />
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kirim"
+                            android:id="@+id/button2"
+                            android:layout_above="@+id/progressBar3"
+                            android:layout_alignLeft="@+id/editText2"
+                            android:onClick="btnSend"
+                            />
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/progressBar4"
+                            android:layout_above="@+id/textView49"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="130dip"
+                            android:layout_marginTop="30dip"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Load Commentar"
+                            android:id="@+id/textView50"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="100dip"
+                            android:layout_marginBottom="10dip"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

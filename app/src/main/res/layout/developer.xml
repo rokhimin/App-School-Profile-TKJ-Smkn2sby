@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@drawable/topbarbg"
+        android:orientation="horizontal" >
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnBack" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="6"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABOUT DEVELOPER"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="3dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnHome" >
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home" />
+        </TableRow>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="4dip"
+        android:layout_weight="8.01"
+        android:orientation="vertical"
+        android:weightSum="1"
+        >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout111"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="1"
+                >
+
+                <!-- Start for 1 iTem -->
+
+                <LinearLayout
+                    android:id="@+id/linearLayout12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dip"
+                    android:background="@drawable/rowbg"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout13"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <!-- Add service image here -->
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/rokhimin_whd" />
+
+
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="4dip"
+                            android:text="Rokhimin Wahid "
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:background="#ff8a00"
+                        android:padding="10dip" />
+
+                    <RelativeLayout
+                        android:id="@+id/linearLayout1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="190dip"
+                        android:orientation="horizontal"
+                        android:padding="10dip"
+                        android:layout_weight="0.95"
+                        >
+
+                        <!-- Add service details here -->
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|right"
+                            android:text="- Programmer"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="- Debugger"
+                            android:id="@+id/textView21"
+                            android:textColor="#000"
+                            android:layout_below="@+id/textView2"
+                            android:layout_alignParentLeft="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="- Android Mobile Development"
+                            android:id="@+id/textView22"
+                            android:textColor="#000"
+                            android:layout_below="@+id/textView21"
+                            android:layout_alignParentLeft="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="- Studies at SMKN 2 Surabaya (TKJ)"
+                            android:id="@+id/textView30"
+                            android:textColor="#000"
+                            android:layout_below="@+id/textView22"
+                            android:layout_alignLeft="@+id/textView22"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="- Live in Surabaya"
+                            android:id="@+id/textView24"
+                            android:textColor="#000"
+                            android:layout_below="@+id/textView30"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="- Contact : "
+                            android:id="@+id/textView31"
+                            android:textColor="#000"
+                            android:layout_below="@+id/textView24"
+                            android:layout_alignParentLeft="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="- Email : "
+                            android:id="@+id/textView32"
+                            android:textColor="#000"
+                            android:layout_below="@+id/textView31"
+                            android:layout_alignRight="@+id/textView24"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="- FaceBook : "
+                            android:id="@+id/textView33"
+                            android:textColor="#000"
+                            android:layout_below="@+id/textView32"
+                            android:layout_alignLeft="@+id/textView32"
+                            />
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:autoLink="web"
+                            android:text="fb.com/whdzera"
+                            android:textColor="#000000"
+                            android:layout_alignTop="@+id/textView33"
+                            android:layout_toRightOf="@+id/textView33"
+                            />
+                        <TextView
+                            android:id="@+id/textView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:autoLink="web"
+                            android:text="rokhim.whd@gmail.com"
+                            android:textColor="#2A55FF"
+                            android:layout_below="@+id/textView31"
+                            android:layout_toRightOf="@+id/textView32"
+                            />
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="0.24"
+                        android:layout_below="@+id/textView30"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="22dp"
+                        >
+                        <ImageView
+                            android:layout_width="356dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView16"
+                            android:src="@drawable/line"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Credit For"
+                            android:id="@+id/textView25"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="#000"
+                            android:layout_marginTop="10dip"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="> Arek TKJ"
+                            android:id="@+id/textView26"
+                            android:textColor="#000"
+                            android:layout_marginLeft="5dip"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="> IconFinder (thanks for Icon)"
+                            android:id="@+id/textView27"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="#000"
+                            android:layout_marginLeft="5dip"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="> Grup Android Studio (Telegram)"
+                            android:id="@+id/textView28"
+                            android:textColor="#000"
+                            android:layout_marginLeft="5dip"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="> Example Image Slider (from github)"
+                            android:id="@+id/textView29"
+                            android:textColor="#000"
+                            android:layout_marginLeft="5dip"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="> Okedroid (For Tutorial Intent and Splash)"
+                            android:id="@+id/textView38"
+                            android:textColor="#000"
+                            android:layout_marginLeft="5dip"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="> Example Source Code (From Grup FB)"
+                            android:id="@+id/textView39"
+                            android:textColor="#000"
+                            android:layout_marginLeft="5dip"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="> Nova Dewangga (For Kopi) ...kopinya pait bos"
+                            android:id="@+id/textView40"
+                            android:textColor="#000"
+                            android:layout_marginLeft="5dip"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="> All"
+                            android:id="@+id/textView41"
+                            android:textColor="#000"
+                            android:layout_marginLeft="5dip"
+                            android:layout_marginBottom="10dip"
+                            />
+                        <ImageView
+                            android:layout_width="356dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView17"
+                            android:src="@drawable/line"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="true"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- End for 1 iTem -->
+                <!-- Start for 2 iTem -->
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

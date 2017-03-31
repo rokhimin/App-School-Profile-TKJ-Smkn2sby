@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rokhimin.profiltkj1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.SplashActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.ContactUsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.ProfilActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.BlogActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.HistoryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.StudentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.GuruActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.GalleryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.DiscussionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.AboutappActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.DeveloperActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.LicenseActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.Report"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.FacebookActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.InstagramActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.TwitterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.Blog1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.Blog2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.Blog3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.Blog4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.Blog5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.Blog6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.Blog7"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.History1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.History2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:name="com.rokhimin.profiltkj1.FullImage" >
+        </activity>
+    </application>
+
+</manifest>

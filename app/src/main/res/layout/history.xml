@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@drawable/topbarbg"
+        android:orientation="horizontal" >
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnBack" >
+
+            <ImageView
+                android:id="@+id/imageView101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="6"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HISTORY"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="3dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnHome" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home" />
+        </TableRow>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="4dip"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout102"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- History 1 -->
+
+                <LinearLayout
+                    android:id="@+id/linearLayout103"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dip"
+                    android:background="@drawable/rowbg"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout104"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+
+
+                        <ImageView
+                            android:id="@+id/imageView201"
+                            android:layout_width="118dp"
+                            android:layout_height="133dp"
+                            android:src="@drawable/logo_smk"
+                            android:onClick="btnHi1"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/textView202"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="4dip"
+                            android:text="Sejarah SMK Negeri 2 Surabaya"
+                            android:textColor="#C60000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:onClick="btnHi1"
+                            />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:background="#C60000"
+                        android:padding="10dip" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout105"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dip" >
+
+
+                        <TextView
+                            android:id="@+id/textView205"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sekolah Menengah Kejuruan Negeri 2 Surabaya ini merupakan Sekolah Menengah Kejuruan (SMK) yang tertua di Jawa Timur dan Indonesia bagian timur, karena didirikan pada zaman penjajahan Belanda kurang lebih tahun 1917 dgn Lulusan pertama Sekolah ini kurang lebih tahun 1921 dengan jurusan...Read More"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:onClick="btnHi1"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!-- History 2 -->
+
+                <LinearLayout
+                    android:id="@+id/linearLayout106"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dip"
+                    android:background="@drawable/rowbg"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout107"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+
+                        <ImageView
+                            android:id="@+id/imageView206"
+                            android:layout_width="224dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/slide3"
+                            android:onClick="btnHi2"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/textView207"
+                            android:layout_width="159dp"
+                            android:layout_height="wrap_content"
+                            android:padding="4dip"
+                            android:text="Sejarah TKJ (Teknik Komputer Jaringan)"
+                            android:textColor="#C60000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:onClick="btnHi2"
+                            />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:background="#C60000"
+                        android:padding="10dip" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout110"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dip" >
+
+
+                        <TextView
+                            android:id="@+id/textView209"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|right"
+                            android:text="Teknik Komputer dan Jaringan (TKJ) adalah program keahlian yang bertujuan membekali peserta didik dengan keterampilan, pengetahuan, dan sikap agar kompeten dalam merakit, menginstall program, merawat dan memperbaiki komputer serta jaringannya ISP baik di tingkat lokal (nasional) maupun luar negeri...Read More"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:onClick="btnHi2"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/progressBar5"
+                            android:layout_marginLeft="150dip"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Update..."
+                            android:id="@+id/textView143"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

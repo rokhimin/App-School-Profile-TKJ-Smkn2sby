@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@drawable/topbarbg"
+        android:orientation="horizontal" >
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnBack" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="6"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Content"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="3dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnHome" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home" />
+        </TableRow>
+    </LinearLayout>
+
+    <!-- Main Blog 1 zzz Rokhimin whd zzz -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="4dip"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+
+            <RelativeLayout
+                android:id="@+id/linearLayout92"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dip"
+                android:background="@drawable/rowbg"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout93"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/imageView94"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/blog2" />
+
+
+                    <TextView
+                        android:id="@+id/textView95"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dip"
+                        android:textColor="#ff8a00"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="Istilah Hardware Di PC"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/linearLayout93"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView15"
+                        android:src="@drawable/line"
+                        android:layout_below="@+id/linearLayout93"
+                        android:layout_centerHorizontal="true"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="BIOS :"
+                        android:id="@+id/textView57"
+                        android:textColor="#2A55FF"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Basic Input Output system . Software yang dipasang pada chip komputer untuk mengatur operasi dasar seperti layar, harddisk, memory, VGA, dll. Bagian dari sistem operasi yang bisa mengidentifikasi set program yang digunakan untuk mem-boot komputer, sebelum menempatkan disket sistem. BIOS terdapat di ROM (Read Only Memory) dari sistem dan umumnya tersimpan secara permanen. Program yang digunakan mikroprosesor untuk menyalakan komputer. BIOS juga mengatur aliran data antara sistem operasi komputer dan perangkat tambahan yang terhubung pada komputer."
+                        android:id="@+id/textView48"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Bus  :"
+                        android:id="@+id/textView58"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Saluran yang terdiri dari sekumpulan jalur yang sejenis. Sekumpulan kabel yang merupakan alat transportasi informasi ke semua peralatan dalam sistem. Informasi tersebut dapat berupa data, perintah atau alamat."
+                        android:id="@+id/textView59"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Cache Memory :"
+                        android:id="@+id/textView60"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Memori berkecepatan tinggi yang mampu bekerjasama dengan CPU, bertindak sebagai buffer antara CPU dan memori utama yang lamban."
+                        android:id="@+id/textView61"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Casing :"
+                        android:id="@+id/textView62"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Kotak tempat mesin komputer (motherboard dan pendukungnya, power supply, disk drive, hardisk, CD ROM drive). Wadah atau tempat melindungi motherboard, control board, power supply disk drive dan komponenkompenen lainnya. Sebuah case komputer sebenarnya tak lebih dari rangka dari sebuah komputer. Case ini adalah tempat komponen-komponen yang membentuk sebuah sistem komputer terletak, juga untuk meletakkan alat"
+                        android:id="@+id/textView63"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="CD ROM Drive :"
+                        android:id="@+id/textView64"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Alat pemutar CD ROM. Suatu drive untuk merekam atau memainkan Compact Disk, yang sering dijumpai adalah CD-ROM (CD Read Only Memory) MO (Magneto-Optical) dan WORM (Write Once Read Many)."
+                        android:id="@+id/textView65"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="CGA  :"
+                        android:id="@+id/textView66"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Color Graphics Adaptor. Salah satu tipe monitor, yaitu standar Ibm untuk kualitas monitor resolusi rendah, dalam mode grafik hanya dapat menampilkan 4 warna."
+                        android:id="@+id/textView67"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Clock  :"
+                        android:id="@+id/textView68"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Jam/pewaktu. Rangkaian pembangkit frekuensi. Sumber utama dari pulsa elektronik komputer. Clock digunakan untuk menyamakan operasi semua elemen komputer."
+                        android:id="@+id/textView69"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="CMOS  :"
+                        android:id="@+id/textView70"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Compelementary Metal Oxide Semiconductor. RAM kecil berukuran 64 byte yang menyimpan setting BIOS saat komputer sedang dimatikan. CMOS merupakan perluasan dari teknologi MOS yang menghasilkan IC dengan kebutuhan tenaga baterai rendah. CMOS digunakan untuk menyimpan program konfigurasi, program diagnostik dan informasi tanggal dan waktu pembuatan file yang tidak akan hilang meskipun komputer dimatikan."
+                        android:id="@+id/textView71"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="CPU  :"
+                        android:id="@+id/textView72"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Central Processing Unit. Unit pemroses utama dalam istilah teknik disebut mikroprosesor, sedang dalam pengertian umum adalah mesin komputer yaitu casing beserta semua isi didalamnya. Pusat pengolahan masukan sehingga menghasilkan keluaran. Termasuk di sini adalah semua register, sirkuit aritmatik, unit pembanding, dsb."
+                        android:id="@+id/textView73"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="CRT  :"
+                        android:id="@+id/textView74"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Catoda Ray Tube Teknologi yang dipakai untuk membuat sistem tampilan/monitor komputer menggunakan tabung sinar katoda."
+                        android:id="@+id/textView75"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Disk :"
+                        android:id="@+id/textView76"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Suatu media penyimpanan data. Yang dimaksud dengan disk adalah floppy disk atau hard disk. Sedangkan floppy disk adalah disket. Piringan tipis yang dilapisi bahan magnetik (oksida besi) yang mampu menyimpan sejumlah data atau informasi. Pembacaan dan penulisan informasi dipusatkan pada track."
+                        android:id="@+id/textView77"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="DRAM :"
+                        android:id="@+id/textView78"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Dynamic RAM. Memori PC yang dapat dibaca dan ditulisi. Untuk menyimpan data dalam memori, isinya perlu di refresh secara periodik."
+                        android:id="@+id/textView79"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Drive :"
+                        android:id="@+id/textView80"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Pintu, penggerak disk. EGA  : Enhanced Graphics Adaptor. Salah satu standard resolusi monitor. EGA mampu menampilkan 16 warna dalam model grafik, setingkat di atas monitor CGA. Monitor dengan card EGA mampu menampilkan 16 warna pada bentuk teks (80 x 25 karakter atau 40 x 25 karakter), 16 warna pada bentuk resolusi rendah dan 4 warna pada resolusi tinggi dan tampilan grafik 640 x 350 titik. Perkembangan dari jenis EGA diantaranya adalah ATI Technologies Inc dengan card bernama EGA WONDER, dapat menampilkan 132 x 25 karakter. Monitor jenis EGA masih memakai konektor monitor yang sama dengan monitor jenis CGA dan Monochrome. EVEREX mengeluarkan card EPGA (Enhanced Proffesional Graphics Adapter), mampu menampilkan 649 x 480 titik (dot) dengan 256 warna, dari 4096 kombinasi warna dasar (pallette). EPGA dan disebut juga PEGA (Proffesional Enhanced Graphics Adapter), ataupun PGA (Proffesional Graphics Adapter), menampilkan layar teks 132 x 43 karakter pada multi frekuensi atau Ulta sync, dan fleksibilitas yang dapat menggunakan monitor monochrome maupun enhanced monitor. Monitor ini mempergunakan konektor 9 pin yang terdiri dari 2 baris. "
+                        android:id="@+id/textView81"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Motherboard :"
+                        android:id="@+id/textView82"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Papan rangkaian komputer tempat semua komponen elektronik komputer terangkai."
+                        android:id="@+id/textView83"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Peripheral :"
+                        android:id="@+id/textView84"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Peralatan. Spesifikasi peralatan pendukung yang dibutuhkan oleh sebuah PC agar dapat bekerja secara optimal."
+                        android:id="@+id/textView85"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="PIC  :"
+                        android:id="@+id/textView86"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Programmable Interupt Controller. Kendali sela terprogram. Chip yang berfungsi untuk mengendalikan proses penyelaan antar periferal. Alat pengendali sela periferal yang membantu kerja CPU dalam proses penyelaan."
+                        android:id="@+id/textView87"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Power Supply :"
+                        android:id="@+id/textView88"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Suatu rangkaian elektronik yang berfungsi sebagai pencatu daya/pemberi sumber tegangan/arus pada peralatan."
+                        android:id="@+id/textView89"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="VRAM  :"
+                        android:id="@+id/textView90"
+                        android:textColor="#2A55FF"
+                        android:layout_marginTop="6dip"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Video Random Access Memory (Video RAM) Tipe spesial dari DRAM yang memungkinkan akses direct high speed memory melalui sirkuit video. Jenis memori ini lebih mahal bila dibandingkan chips DRAM yang konvensional."
+                        android:id="@+id/textView91"
+                        android:textColor="#000"
+                        android:singleLine="false"
+                        android:layout_below="@+id/imageView15"
+                        android:layout_alignLeft="@+id/imageView15"
+                        />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignTop="@+id/editText2"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Written : TIM FAKULTAS TEKNIK UNIVERSITAS NEGERI YOGYAKARTA"
+                            android:id="@+id/textView52"
+                            android:layout_above="@+id/imageView18"
+                            android:layout_alignLeft="@+id/imageView18"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Update : 10/02/2017"
+                            android:id="@+id/textView49"
+                            android:layout_above="@+id/imageView18"
+                            android:layout_alignLeft="@+id/imageView18"
+                            android:layout_marginBottom="2dip"
+                            />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView19"
+                            android:src="@drawable/line"
+                            android:layout_above="@+id/textView48"
+                            android:layout_alignLeft="@+id/imageView15"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Commentar :"
+                            android:id="@+id/textView51"
+                            android:layout_above="@+id/editText2"
+                            android:layout_alignLeft="@+id/imageView18"
+                            android:textColor="#000"
+                            android:layout_marginTop="14dip"
+                            />
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/editText2"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignLeft="@+id/linearLayout93"
+                            />
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kirim"
+                            android:id="@+id/button2"
+                            android:layout_above="@+id/progressBar3"
+                            android:layout_alignLeft="@+id/editText2"
+                            android:onClick="btnSend"
+                            />
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/progressBar4"
+                            android:layout_above="@+id/textView49"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="130dip"
+                            android:layout_marginTop="30dip"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Load Commentar"
+                            android:id="@+id/textView50"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="100dip"
+                            android:layout_marginBottom="10dip"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

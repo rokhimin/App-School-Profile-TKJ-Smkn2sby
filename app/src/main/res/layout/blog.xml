@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@drawable/topbarbg"
+        android:orientation="horizontal" >
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="3dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnBack" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="6"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BLOG"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="3dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="btnHome" >
+
+            <ImageView
+                android:id="@+id/imageView91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home" />
+        </TableRow>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="4dip"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout91"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- Blog 1 Rokhimin whd -->
+
+                <LinearLayout
+                    android:id="@+id/linearLayout92"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dip"
+                    android:background="@drawable/rowbg"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout93"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/imageView94"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/blog1"
+                            android:onClick="btnBlog1"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/textView95"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="4dip"
+                            android:text="Apa itu DNS ? (Konsep &amp; Cara kerja DNS)"
+                            android:textColor="#C60000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:onClick="btnBlog1"
+                            />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:layout_gravity="center"
+                        android:background="#C60000"
+                        android:padding="14dip" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout96"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dip" >
+
+                        <TextView
+                            android:id="@+id/textView97"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|right"
+                            android:text="DNS (Domain Name System) adalah suatu system yang mengubah nama host (seperti linux.or.id) menjadi...Read More"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:onClick="btnBlog1"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <!-- Blog 2 Rokhimin whd -->
+
+                <LinearLayout
+                    android:id="@+id/linearLayout98"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dip"
+                    android:background="@drawable/rowbg"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout99"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+
+                        <ImageView
+                            android:id="@+id/imageView100"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/blog2"
+                            android:onClick="btnBlog2"
+                            />
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="4dip"
+                            android:text="Istilah Hardware di PC"
+                            android:textColor="#C60000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:onClick="btnBlog2"
+                            />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:layout_gravity="center"
+                        android:background="#C60000"
+                        android:padding="14dip" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout102"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dip" >
+
+                        <TextView
+                            android:id="@+id/textView103"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|right"
+                            android:text="BIOS,CMOS,Caching,CPU,CRT,Disk,Drive,Dram,RAM,Vram,PIC...Read More"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:onClick="btnBlog2"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+              <!-- Blog 3 Rokhimin whd -->
+
+                <LinearLayout
+                    android:id="@+id/linearLayout104"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dip"
+                    android:background="@drawable/rowbg"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout105"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dip"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal" >
+
+
+                        <ImageView
+                            android:id="@+id/imageView106"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/blog3"
+                            android:onClick="btnBlog3" />
+
+
+                        <TextView
+                            android:id="@+id/textView107"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="4dip"
+                            android:text="Tentang DHCP Server dan DHCP Client"
+                            android:textColor="#C60000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:onClick="btnBlog3" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:layout_gravity="center"
+                        android:background="#C60000"
+                        android:padding="14dip" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout108"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dip" >
+
+
+                        <TextView
+                            android:id="@+id/textView109"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|right"
+                            android:text="Dynamic Host Configuration Protocol (DHCP) merupakan service yang memungkinkan perangkat...Read More"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:onClick="btnBlog3" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+              <!-- Blog 4 Rokhimin whd -->
+
+              <LinearLayout
+                  android:id="@+id/linearLayout110"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="3dip"
+                  android:background="@drawable/rowbg"
+                  android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout111"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+
+                  <ImageView
+                      android:id="@+id/imageView112"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/blog4"
+                      android:onClick="btnBlog4" />
+
+
+                  <TextView
+                      android:id="@+id/textView113"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:padding="4dip"
+                      android:text="Konsep Subnetting IP Address Untuk Effisiensi Internet"
+                      android:textColor="#C60000"
+                      android:textSize="18sp"
+                      android:textStyle="bold"
+                      android:onClick="btnBlog4" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="center"
+                    android:background="#C60000"
+                    android:padding="14dip" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout114"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dip" >
+
+
+                  <TextView
+                      android:id="@+id/textView115"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical|right"
+                      android:text="Jumlah IP Address sangat terbatas, apalagi jika harus memberikan alamat semua host di Internet...Read More"
+                      android:textColor="#000"
+                      android:textSize="15sp"
+                      android:onClick="btnBlog4" />
+                </LinearLayout>
+              </LinearLayout>
+
+              <!-- Blog 5 Rokhimin whd -->
+
+              <LinearLayout
+                  android:id="@+id/linearLayout116"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="3dip"
+                  android:background="@drawable/rowbg"
+                  android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout117"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+
+                  <ImageView
+                      android:id="@+id/imageView118"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/blog5"
+                      android:onClick="btnBlog5" />
+
+
+                  <TextView
+                      android:id="@+id/textView119"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:padding="4dip"
+                      android:text="Penjelasan Web Proxy Mikrotik"
+                      android:textColor="#C60000"
+                      android:textSize="18sp"
+                      android:textStyle="bold"
+                      android:onClick="btnBlog5" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="center"
+                    android:background="#C60000"
+                    android:padding="14dip" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout120"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dip" >
+
+
+                  <TextView
+                      android:id="@+id/textView121"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical|right"
+                      android:text="Proxy adalah suatu aplikasi yang menjadi perantara antara client dengan server, sehingga...Read More"
+                      android:textColor="#000"
+                      android:textSize="15sp"
+                      android:onClick="btnBlog5" />
+                </LinearLayout>
+              </LinearLayout>
+
+
+
+              <!-- Blog 6 Rokhimin whd -->
+
+              <LinearLayout
+                  android:id="@+id/linearLayout123"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="3dip"
+                  android:background="@drawable/rowbg"
+                  android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout124"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+
+                  <ImageView
+                      android:id="@+id/imageView125"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/blog6"
+                      android:onClick="btnBlog6" />
+
+
+                  <TextView
+                      android:id="@+id/textView126"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:padding="4dip"
+                      android:text="All About OSI Layer"
+                      android:textColor="#C60000"
+                      android:textSize="18sp"
+                      android:textStyle="bold"
+                      android:onClick="btnBlog6" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="center"
+                    android:background="#C60000"
+                    android:padding="14dip" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout127"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dip" >
+
+
+                  <TextView
+                      android:id="@+id/textView128"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical|right"
+                      android:text="Open SystemsInterconnection (OSI)adalah sebuah model referensi arsitektur antarmuka jaringan yang...Read More"
+                      android:textColor="#000"
+                      android:textSize="15sp"
+                      android:onClick="btnBlog6" />
+                </LinearLayout>
+              </LinearLayout>
+
+
+
+              <!-- Blog 7 Rokhimin whd -->
+
+              <LinearLayout
+                  android:id="@+id/linearLayout129"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="3dip"
+                  android:background="@drawable/rowbg"
+                  android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout130"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                  <ImageView
+                      android:id="@+id/imageView131"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/blog7"
+                      android:onClick="btnBlog7" />
+
+
+                  <TextView
+                      android:id="@+id/textView132"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:padding="4dip"
+                      android:text="Teknologi wireless 802.11"
+                      android:textColor="#C60000"
+                      android:textSize="18sp"
+                      android:textStyle="bold"
+                      android:onClick="btnBlog7" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_gravity="center"
+                    android:background="#C60000"
+                    android:padding="14dip" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout133"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dip" >
+
+
+                  <TextView
+                      android:id="@+id/textView134"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical|right"
+                      android:text="standart jaringan wireless yang bekerja pada frekuensi 5 GHz dengan kecepatan transfer data...Read More"
+                      android:textColor="#000"
+                      android:textSize="15sp"
+                      android:onClick="btnBlog7" />
+                </LinearLayout>
+              </LinearLayout>
+              <LinearLayout
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  >
+                <ProgressBar
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progressBar6"
+                    android:layout_marginLeft="150dip"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Update..."
+                    android:id="@+id/textView144"
+                    />
+              </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
