@@ -1,26 +1,37 @@
-# MySchool-App-TKJ-smkn2sby
+# App School Profile
 This My First Project Android app
-build with Android Studio 2.2
+* build with Android Studio 2.2
 
-Feature :
+## Features
+
 - Profile school (intent to instagram,fb,webschool)
-- List siswa tkj1 alumni 2017
-- list guru tkj1 on 2017
-- blog tkj
-- materi education on tkj
-- many more
+- List siswa tkj alumni 2017
+- list guru tkj on 2017
+- Blog static tkj
+- Histori static school
+- Gallery TKJ
+- Materi education on TKJ
+- About Menu
+- Many more
 
-Screenshot1
+## Credits and Acknowledgments
+
+Created and Maintained by [Rokhim Wahid]
+- Thanks SMK Negeri 2 Surabaya
+- Thanks Google, Jetbrains, Stackoverflow
+- Thanks my Parents
+- .Etc
+
+## Screenshot
+
 ![MySchool-App-TKJ-smkn2sby](https://github.com/rokhimin/MySchool-App-TKJ-smkn2sby/blob/master/ss/whd1.jpg?raw=true)
 
-
-
-
-Screenshot2
 ![MySchool-App-TKJ-smkn2sby](https://github.com/rokhimin/MySchool-App-TKJ-smkn2sby/blob/master/ss/whd2.jpg?raw=true)
 
-
-
-
-Screenshot3
 ![MySchool-App-TKJ-smkn2sby](https://github.com/rokhimin/MySchool-App-TKJ-smkn2sby/blob/master/ss/whd3.jpg?raw=true)
+
+
+## About This App
+
+* [GPL](http://opensource.org/licenses/GPL-3.0)
+
