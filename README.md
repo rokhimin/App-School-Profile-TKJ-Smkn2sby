@@ -30,7 +30,7 @@ This My First Project Android app
 ![MySchool-App-TKJ-smkn2sby](https://github.com/rokhimin/MySchool-App-TKJ-smkn2sby/blob/master/ss/whd3.jpg?raw=true)
 
 
-## About This App
+## License
 
 * [GPL](http://opensource.org/licenses/GPL-3.0)
 
