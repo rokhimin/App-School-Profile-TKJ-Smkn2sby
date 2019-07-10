@@ -16,10 +16,9 @@ This My First Project Android app
 
 ## Credits and Acknowledgments
 
-Created and Maintained by [Rokhim Wahid]
 - Thanks SMK Negeri 2 Surabaya
 - Thanks Google, Jetbrains, Stackoverflow
-- Thanks my Parents
+- Thanks my Parents and god
 - .Etc
 
 ## Screenshot
